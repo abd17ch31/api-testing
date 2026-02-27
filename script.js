@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  const API_URL = "http://localhost:3000/api/chat";
+  const API_URL = "https://api-testing-production-4a7d.up.railway.app/api/chat";
   const chatMessages = document.getElementById("chatMessages");
   const messageInput = document.getElementById("messageInput");
   const sendBtn = document.getElementById("sendBtn");
